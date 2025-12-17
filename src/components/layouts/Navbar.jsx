@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div
-      className={`navbar px-6 py-4 flex justify-between items-center transition-colors duration-300 ${navbarClass}`}
+      className={`navbar  px-6 py-4 flex justify-between items-center transition-colors container duration-300 ${navbarClass}` }
     >
       <div className="flex-1 items-center flex">
         <span className="text-5xl font-bold flex ">{state.title}</span>

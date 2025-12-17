@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@layer base {
+  .container {
+    @apply w-full max-w-[75rem] ml-auto mr-auto;
+  }
+}
